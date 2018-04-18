@@ -24,7 +24,7 @@ class TableContactsRow extends Component {
   }
 
   onDelete(id) {
-    if (confirm('Are you want delete ？')) {
+    if (confirm('Are you want delete？')) {
       this.props.onDelete(id);
     }
   }

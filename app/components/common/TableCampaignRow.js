@@ -53,7 +53,7 @@ class TableCampaignsRow extends Component {
               alt="No Image"
             />
           </td>
-          <td>{type === 1 ? 'スタティック' : 'ダイナミック'}</td>
+          <td>{type === 1 ? 'Static' : 'Dynamic'}</td>
           <td>{status ? 'Active' : 'Un Active'}</td>
           <td>{url ? url : null}</td>
           <td>{formatDate(createdAt)}</td>

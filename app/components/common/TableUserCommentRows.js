@@ -26,14 +26,14 @@ class TableUserCommentRows extends Component {
 
   onApprove() {
     const { _id } = this.props;
-    if (confirm('Are you want approve ？')) {
+    if (confirm('Are you want approve？')) {
       this.props.onApproved(_id);
     }
   }
 
   onBlock() {
     const { _id } = this.props;
-    if (confirm('Are you want block ？')) {
+    if (confirm('Are you want block？')) {
       this.props.onBlock(_id);
     }
   }

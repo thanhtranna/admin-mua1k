@@ -32,14 +32,14 @@ class TableReviewRows extends Component {
 
   onDelete() {
     const { _id } = this.props;
-    if (confirm('Are you want delete ？')) {
+    if (confirm('Are you want delete？')) {
       this.props.onDelete(_id);
     }
   }
 
   onBlock() {
     const { _id } = this.props;
-    if (confirm('Are you want block ？')) {
+    if (confirm('Are you want block？')) {
       this.props.onBlock(_id);
     }
   }

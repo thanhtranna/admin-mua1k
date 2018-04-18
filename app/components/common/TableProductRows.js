@@ -25,7 +25,7 @@ class TableProductRows extends Component {
 
   onDelete() {
     const { _id } = this.props;
-    if (confirm('Are you want delete ？')) {
+    if (confirm('Are you want delete？')) {
       this.props.onDelete(_id);
     }
   }

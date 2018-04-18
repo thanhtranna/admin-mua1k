@@ -4,7 +4,6 @@ class OptionList extends Component {
   constructor(props) {
     super(props);
   }
-
   render() {
     const { _id, name } = this.props;
     return <option value={_id}>{name}</option>;

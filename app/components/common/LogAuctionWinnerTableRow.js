@@ -73,7 +73,7 @@ class LogAuctionWinnerTableRow extends Component {
           </Link>
         </div>
       );
-      statusHtml = '出荷しています';
+      statusHtml = 'Transfering';
     }
 
     if (statusWinner && statusWinner === 2) {

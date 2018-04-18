@@ -1,8 +1,7 @@
-
 export ListErrors from './ListErrors';
-export TableUsersRow from "./TableUsersRow";
-export TableContactsRow from './TableContactsRow'
-export AuctionTableRow from "./AuctionTableRow";
+export TableUsersRow from './TableUsersRow';
+export TableContactsRow from './TableContactsRow';
+export AuctionTableRow from './AuctionTableRow';
 export TableCampaignRow from './TableCampaignRow';
 export OptionList from './OptionList';
 export MessageTableRow from './MessageTableRow';

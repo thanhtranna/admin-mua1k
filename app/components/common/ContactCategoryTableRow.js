@@ -19,7 +19,7 @@ class ContactCategoryTableRow extends Component {
         <td>{formatDate(deletedAt)}</td>
         <td>
           <div className="btn-group">
-            {/*<Link to={`/conditions/${_id}`} className="btn btn-info">表示</Link>*/}
+            {/*<Link to={`/conditions/${_id}`} className="btn btn-info">Show</Link>*/}
             <Link
               to={`/type-contact-category/edit/${id}`}
               className="btn btn-primary"

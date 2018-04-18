@@ -20,7 +20,7 @@ class MessageTableRow extends Component {
   onDelete(event) {
     event.preventDefault();
     const { id } = this.props;
-    if (confirm('Are you want delete ？')) {
+    if (confirm('Are you want delete？')) {
       this.props.onDelete(id);
     }
   }

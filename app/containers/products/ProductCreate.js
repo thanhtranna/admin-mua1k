@@ -88,9 +88,10 @@ class ProductCreate extends Component {
     if (expDateNumber.value) data.append('expDateNumber', expDateNumber.value);
     data.append('category', category);
     // if (condition.value) data.append('condition', condition.value);
-    for (let i = 0; i < images.files.length; i++) {
-      data.append('images', images.files[i]);
-    }
+    data.append('images', images.files[0]);
+    // for (let i = 0; i < images.files.length; i++) {
+    //   data.append('images', images.files[i]);
+    // }
 
     this.props.onSubmit(data);
   }
